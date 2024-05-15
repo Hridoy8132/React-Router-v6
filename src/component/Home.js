@@ -1,4 +1,4 @@
-// React-router start lec-1 (Home page )
+// React-router start lec-1&2 
 import React from 'react'
 import { Link } from 'react-router-dom';
 
