@@ -9,7 +9,10 @@ import { Link } from 'react-router-dom';
         <p> This is the about page</p>
         <p> Here we learning web development </p>
         <Link to="/"> Go to Home  page </Link>
-      
+        <br />
+        <Link to="/user/haider"> This is Haider page </Link>
+         <br />
+        <Link to="/user/preter">This is Peter page </Link>
     </div>
   )
 }
