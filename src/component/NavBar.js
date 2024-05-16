@@ -1,12 +1,19 @@
 // React-router lec-2 (Links,NabBar,Anchor Tag)
-import { Link } from "react-router-dom";
+// Lec-5 Replace link to Navlink and design Navbar.
+import { Link,NavLink } from "react-router-dom";
 
 function NavBar() {
   return (
     <div>
-      <Link to="/about"> About </Link>
-      <br />
-      <Link to="/"> Home</Link>
+      <ul className="navbar">
+        <li> <NavLink className ="nablink" to="/"> Home</NavLink> </li>
+        <li> <NavLink className ="nablink" to="/about"> About </NavLink>  </li>
+        <li> <NavLink className ="nablink" to="/contact"> Contact </NavLink> </li>
+      </ul>
+      
+      
+      
+      
       <br />
       
     </div>
