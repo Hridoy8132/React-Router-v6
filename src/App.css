@@ -12,7 +12,13 @@
 .navbar{
   text-align: right;
   font-weight: bold;
+  padding: 5px 15px;
+  font-size: larger;
 
+}
+
+.navbar .active{
+  color: skyblue;
 }
 .navbar li{
   display: inline-block;

@@ -1,4 +1,5 @@
 // React-router start lec-1 & 2
+// Lec-5 Navbar style working on this page and Navbar page.
 import React from 'react'
 import { Link } from 'react-router-dom';
 
@@ -10,9 +11,11 @@ import { Link } from 'react-router-dom';
         <p> Here we learning web development </p>
         <Link to="/"> Go to Home  page </Link>
         <br />
-        <Link to="/user/haider"> This is Haider page </Link>
+        <Link to="/User/haider"> This is Haider page </Link>
          <br />
-        <Link to="/user/preter">This is Peter page </Link>
+        <Link to="/User/preter">This is Preter page </Link>
+        <br />
+        <Link to="/filter">Filter Page </Link>
     </div>
   )
 }

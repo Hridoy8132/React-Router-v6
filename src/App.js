@@ -89,7 +89,12 @@ import About from  './component/About';
 import NavBar from './component/NavBar';
 import Page404 from './component/Page404';
 import './App.css';
-import User from './component/lec-4-params';
+import User from './component/User';
+import Filter from './component/Filter';
+import Contact from './component/Contact';
+import Company from './component/Company';
+import Chennel from './component/Chennel';
+import Other from './component/Other';
 
 function App() {
   return (
@@ -100,8 +105,16 @@ function App() {
         <Route path="/" element={<Home/>} />
         <Route path="/about" element={<About/>} />
         {/* <Route path="/*" element={<Page404/>} /> */}
-        <Route path="/user/:name" element={<lec-4-params/>} /> 
+        <Route path="/user/:name" element={<User/>} /> 
         <Route path="/*" element={<Navigate to = "/" />} />
+        <Route path="/filter" element={<Filter/>} />
+        <Route path="/contact/" element={<Contact/>} >
+          <Route path="company" element={<Company/>} />
+          <Route path="chennel" element={<Chennel/>} />
+          <Route path="other " element={<Other />} />
+          
+         </Route>
+
         
       </Routes>
       </BrowserRouter>
@@ -111,6 +124,7 @@ function App() {
 }
 
 export default App;
-// lec-3 start (page not fount)
+// Lec-4 End Dynamic routing with params
+
 
 
