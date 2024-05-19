@@ -6,9 +6,9 @@ import { Link, Outlet } from 'react-router-dom';
     <div>
         <h1> This is Contact page </h1>
         <h2> Here we have some other bussiness </h2>
-        <Link to = "company"> Company</Link>
-        <Link to = "chennel"> Chennel</Link>
-        <Link to = "other"> Other </Link>
+        <Link to = "company"> Company</Link> <br/>
+        <Link to = "chennel"> Chennel</Link> <br/>
+        <Link to = "other"> Other </Link> <br/>
         <Outlet/>
       
     </div>

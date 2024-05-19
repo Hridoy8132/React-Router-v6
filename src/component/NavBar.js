@@ -10,6 +10,7 @@ function NavBar() {
         <li> <NavLink className ="nablink" to="/about"> About </NavLink>  </li>
         <li> <NavLink className ="nablink" to="/contact"> Contact </NavLink> </li>
         <li> <NavLink className ="nablink" to="/filter"> Filter </NavLink> </li>
+        <li> <NavLink className ="nablink" to="/login"> Login </NavLink> </li>
       </ul>
       
       
